@@ -1,6 +1,7 @@
 const express = require('express');
 const session = require('express-session');
-const routes = require('./controllers');
+const routes = require('./controllers/api/index');
+
 
 const sequelize = require('./config/connection');
 const SequelizeStore = require('connect-session-sequelize')(session.Store);
@@ -10,10 +11,7 @@ const PORT = process.env.PORT || 3001;
 
 const sess = {
   secret: 'Super secret secret',
-  cookie: {
-    maxAge: 3668, 
-    
-  },
+  cookie: {},   // cookie options
   resave: false,
   saveUninitialized: true,
   store: new SequelizeStore({

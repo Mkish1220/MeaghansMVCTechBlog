@@ -1,0 +1,46 @@
+[
+    {
+      "name": "Easy Javascript Tips",
+      "description": "A short over view for beginners on quick and easy javascript tips for you to use during bootcamps.",
+      "comments": [
+        {
+          "name": "John Doe",
+          "comment": "This is a great short blog for beginners to learn javascript."
+        },
+        {
+          "name": "Jane Doe",
+          "comment": "I am a web developer and this is a great blog for me to reference javascript tips and commands."
+        }
+      ]
+    },
+    {
+      "name": "The How To Guide To Bootcamps",
+      "description": "A personal trip through a short 12 week bootcamp by someone who has never coded! Come see what it was like!",
+      "comments": [
+        {
+          "name": "John Doe",
+          "comment": "This is a great way to show how it is to take a bootcamp when you are on the ground level for learning."
+        },
+        {
+          "name": "Jane Doe",
+          "comment": "As a graduate of a bootcamp I can say this blog is very relateable and prepares you for the fire hose of information you are about to recieve."
+        }
+      ]
+
+    },
+    {
+      "name": "HTML and CSS Tips and Tricks for Beginners",
+      "description": "This is a quick and easy guide to reference as beginners for syntax and styling help from HTML to CSS.",
+      "comments": [
+        {
+          "name": "John Doe",
+          "comment": "This is a great short blog for beginners to learn HTML and CSS."
+        },
+        {
+          "name": "Jane Doe",
+          "comment": "I am a web developer and this is a great blog for me to reference HTML and CSS tips and tricks."
+        }
+      ]
+
+    }
+  ]
